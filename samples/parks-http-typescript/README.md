@@ -15,9 +15,6 @@ The MCP server uses the HTTP Streaming transport protocol to expose the followin
 - Visual Studio Code ([link](https://code.visualstudio.com/download))
 - Node v22 (ideally installed via [nvm for Windows](https://github.com/coreybutler/nvm-windows))
 - GitHub account
-- Power Platform Environment provisioned with the following toggle on:
-
-    ![Get new features early toggle](./assets/newfeatures.png)
 
 ## 🚀 Minimal path to awesome
 
