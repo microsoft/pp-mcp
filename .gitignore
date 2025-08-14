@@ -10,6 +10,10 @@ yarn-error.log*
 dist/
 *.tsbuildinfo
 
+# Python
+__pycache__/
+.venv/
+
 # VS Code
 .vscode/
 
