@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 89.99,
+    "sku": "WBH-001",
+    "description": "High-quality wireless headphones with noise cancellation"
+  },
+  {
+    "id": 2,
+    "name": "Ergonomic Office Chair",
+    "category": "Furniture",
+    "price": 299.99,
+    "sku": "EOC-002",
+    "description": "Comfortable office chair with lumbar support"
+  },
+  {
+    "id": 3,
+    "name": "Stainless Steel Water Bottle",
+    "category": "Home & Garden",
+    "price": 24.99,
+    "sku": "SWB-003",
+    "description": "Insulated water bottle that keeps drinks cold for 24 hours"
+  },
+  {
+    "id": 4,
+    "name": "Gaming Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 129.99,
+    "sku": "GMK-004",
+    "description": "RGB backlit mechanical keyboard with blue switches"
+  },
+  {
+    "id": 5,
+    "name": "Yoga Mat",
+    "category": "Sports & Fitness",
+    "price": 39.99,
+    "sku": "YM-005",
+    "description": "Non-slip yoga mat made from eco-friendly materials"
+  },
+  {
+    "id": 6,
+    "name": "Coffee Maker",
+    "category": "Kitchen",
+    "price": 159.99,
+    "sku": "CM-006",
+    "description": "Programmable coffee maker with thermal carafe"
+  },
+  {
+    "id": 7,
+    "name": "LED Desk Lamp",
+    "category": "Home & Garden",
+    "price": 49.99,
+    "sku": "LDL-007",
+    "description": "Adjustable LED desk lamp with USB charging port"
+  },
+  {
+    "id": 8,
+    "name": "Running Shoes",
+    "category": "Sports & Fitness",
+    "price": 119.99,
+    "sku": "RS-008",
+    "description": "Lightweight running shoes with advanced cushioning"
+  },
+  {
+    "id": 9,
+    "name": "Smartphone Case",
+    "category": "Electronics",
+    "price": 19.99,
+    "sku": "SC-009",
+    "description": "Protective smartphone case with screen protector"
+  },
+  {
+    "id": 10,
+    "name": "Backpack",
+    "category": "Accessories",
+    "price": 79.99,
+    "sku": "BP-010",
+    "description": "Durable backpack with laptop compartment and multiple pockets"
+  },
+  {
+    "id": 11,
+    "name": "Game Console With Game",
+    "category": "Electronics",
+    "price": 299.99,
+    "sku": "GCG-011",
+    "description": "Game console with a game for endless fun."
+  }
+]
