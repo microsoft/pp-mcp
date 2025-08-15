@@ -124,13 +124,11 @@ Updates inventory quantity for a specific product at a specific store.
 
 Before getting started, ensure you have the following installed on your system:
 
-- **Python 3.8+**: The MCP server requires Python 3.8 or higher
-  - Download from [python.org](https://www.python.org/downloads/)
-  - Verify installation: `python --version`
-
-- **Git**: For cloning the repository
-  - Download from [git-scm.com](https://git-scm.com/)
-  - Verify installation: `git --version`
+| Prerequisite            | Purpose/Notes                                         | Download Link                                      |
+|------------------------|------------------------------------------------------|----------------------------------------------------|
+| Python 3.8+            | Required to run the MCP server                       | [python.org](https://www.python.org/downloads/)    |
+| Git                    | For cloning the repository                           | [git-scm.com](https://git-scm.com/)                |
+| Visual Studio Code     | Needed for dev tunnels setup      | [code.visualstudio.com](https://code.visualstudio.com/) |
 
 ### 2. Installation
 ```bash
