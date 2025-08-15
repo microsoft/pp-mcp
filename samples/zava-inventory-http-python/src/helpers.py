@@ -2,7 +2,6 @@ import os
 import json
 from typing import Any, Dict, List
 
-# Shared duplicate detection helpers
 def is_duplicate_product(products, name, category, exclude_id=None):
     name = name.strip().lower()
     category = category.strip().lower()
