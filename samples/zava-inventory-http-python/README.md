@@ -212,7 +212,7 @@ To add an existing MCP connector to your agent in Microsoft Copilot Studio, foll
 1. Select Add a tool.
 1. Select Model Context Protocol. A list of MCP connectors is displayed.
 1. Select the Zava Inventory MCP from the list.
-1. Authorize the connection, entering any information that is needed.
+1. Create the connection by entering the same API key you used in the [API Key Authentication](#3-api-key-authentication) section.
 1. When you're done, select Add to agent to proceed.
 
 Once added, the MCP server tools will appear under Tools for your agent.
