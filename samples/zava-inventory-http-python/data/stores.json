@@ -1,114 +1,135 @@
 [
   {
     "id": 1,
-    "name": "Zava Berlin",
-    "city": "Berlin",
-    "country": "Germany",
-    "address": "123 Hauptstraße 45, 10115 Berlin"
+    "name": "Zava Amsterdam",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "address": "246 Canal St, Jordaan, Amsterdam 1016"
   },
   {
     "id": 2,
+    "name": "Zava Berlin",
+    "city": "Berlin",
+    "country": "Germany",
+    "address": "123 Hauptstra\u00c3\u0178e 45, 10115 Berlin"
+  },
+  {
+    "id": 3,
     "name": "Zava Dubai",
     "city": "Dubai",
     "country": "United Arab Emirates",
     "address": "456 Sheikh Zayed Road, Business Bay, Dubai"
   },
   {
-    "id": 3,
+    "id": 4,
+    "name": "Zava Frankfurt",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "address": "246 Mainzer Landstra\u00dfe, Innenstadt, 60326 Frankfurt"
+  },
+  {
+    "id": 5,
     "name": "Zava Gibsons",
     "city": "Gibsons",
     "country": "Canada",
     "address": "789 Marina Drive, Gibsons, BC V0N 2B8"
   },
   {
-    "id": 4,
+    "id": 6,
     "name": "Zava London",
     "city": "London",
     "country": "United Kingdom",
     "address": "321 High Street, Kensington, London SW7 2AZ"
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Zava Los Angeles",
     "city": "Los Angeles",
     "country": "United States",
     "address": "654 Sunset Boulevard, West Hollywood, CA 90028"
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Zava New York",
     "city": "New York",
     "country": "United States",
     "address": "987 Fifth Avenue, Manhattan, NY 10021"
   },
   {
-    "id": 7,
+    "id": 9,
     "name": "Zava Paris",
     "city": "Paris",
     "country": "France",
     "address": "159 Rue de Rivoli, 1er Arrondissement, 75001 Paris"
   },
   {
-    "id": 8,
+    "id": 10,
     "name": "Zava Rio de Janeiro",
     "city": "Rio de Janeiro",
     "country": "Brazil",
     "address": "753 Avenida Copacabana, Ipanema, Rio de Janeiro 22070-011"
   },
   {
-    "id": 9,
+    "id": 11,
     "name": "Zava Seoul",
     "city": "Seoul",
     "country": "South Korea",
     "address": "246 Gangnam Boulevard, Gangnam-gu, Seoul 06292"
   },
   {
-    "id": 10,
+    "id": 12,
     "name": "Zava Singapore",
     "city": "Singapore",
     "country": "Singapore",
     "address": "801 Orchard Road, Central District, Singapore 238863"
   },
   {
-    "id": 11,
+    "id": 13,
     "name": "Zava Sydney",
     "city": "Sydney",
     "country": "Australia",
     "address": "432 George Street, The Rocks, NSW 2000"
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Zava Tokyo",
     "city": "Tokyo",
     "country": "Japan",
     "address": "135 Shibuya Crossing, Shibuya-ku, Tokyo 150-0002"
   },
   {
-    "id": 13,
+    "id": 15,
     "name": "Zava Toronto",
     "city": "Toronto",
     "country": "Canada",
     "address": "567 Queen Street West, Downtown, ON M5V 2B4"
   },
   {
-    "id": 14,
+    "id": 16,
     "name": "Zava Tulsa",
     "city": "Tulsa",
     "country": "United States",
     "address": "1847 Cherry Street, Brookside, Tulsa, OK 74119"
   },
   {
-    "id": 15,
+    "id": 17,
     "name": "Zava Utrecht",
     "city": "Utrecht",
     "country": "The Netherlands",
     "address": "890 Oudegracht 234, Binnenstad, 3511 NL Utrecht"
   },
   {
-    "id": 16,
+    "id": 18,
     "name": "Zava Wellington",
     "city": "Wellington",
     "country": "New Zealand",
     "address": "412 Pineapple Street, Te Aro, Wellington 6011"
+  },
+  {
+    "id": 19,
+    "name": "Zava Zurich",
+    "city": "Zurich",
+    "country": "Switzerland",
+    "address": "Bahnhofstrasse 1, 8001 Zurich"
   }
 ]
