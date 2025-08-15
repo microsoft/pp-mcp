@@ -1,9 +1,0 @@
-.venv
-.gitignore
-.gitattributes
-.github
-__pycache__
-.vscode/
-.env
-README.md
-docker-compose.yml

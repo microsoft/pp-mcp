@@ -1,9 +1,0 @@
-services:
-  app:
-    build:
-      context: ./src
-    # Remove the following if you don't need environment variables (RUNNING_IN_PRODUCTION can be used see server.py)
-    # env_file:
-    #   - .env
-    ports:
-      - 3000:3000
