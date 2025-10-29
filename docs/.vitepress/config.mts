@@ -3,6 +3,15 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "#PPMCP Labs & Samples",
   base: "/copilot-studio-mcp/",
+  ignoreDeadLinks: [
+    // ignore exact url "./"
+    "./",
+    // ignore all localhost links
+    /^https?:\/\/localhost/,
+    (url) => {
+      return url.toLowerCase().includes("ignore");
+    },
+  ],
   head: [["link", { rel: "icon", href: "/copilot-studio-mcp/logo.png" }]],
   description:
     "Welcome to Power Platform MCP Labs & Samples. Curated labs & samples on getting started with Power Platform & MCP.",
