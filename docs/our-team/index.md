@@ -79,8 +79,8 @@ const communityContributors = [
   <VPTeamPageTitle>
     <template #title>❤️ Contributions</template>
     <template #lead>Say hello to the team behind these Power Platform MCP labs!</template>
-    <VPTeamMembers size="small" ::members="powerAdvocacy" />
   </VPTeamPageTitle>
+  <VPTeamMembers size="small" ::members="powerAdvocacy" />
   <VPTeamPageSection>
     <template #title>Community Contributors</template>
     <template #lead>The following people have provided samples to this project! Thanks for all your contributions!</template>
