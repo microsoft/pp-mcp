@@ -30,35 +30,35 @@ export default defineConfig({
         items: [
           {
             text: "🧮 Calculator (SSE - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/calculator-sse-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/calculator-sse-typescript/index.md",
           },
           {
             text: "🌴 Employee Vacations (HTTP - .NET)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-csharp/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-csharp/index.md",
           },
           {
             text: "🌴 Employee Vacations (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-typescript/index.md",
           },
           {
             text: "🏬 Events Management (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/events-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/events-http-typescript/index.md",
           },
           {
             text: "😁 Jokes (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-http-typescript/index.md",
           },
           {
             text: "😁 Jokes (SSE - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-sse-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-sse-typescript/index.md",
           },
           {
             text: "🌳🌲 Parks (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/parks-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/parks-http-typescript/index.md",
           },
           {
             text: "🛒 Zava Inventory (HTTP - Python)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/zava-inventory-http-python/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/zava-inventory-http-python/index.md",
           },
         ],
       },
@@ -92,35 +92,35 @@ export default defineConfig({
         items: [
           {
             text: "🧮 Calculator (SSE - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/calculator-sse-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/calculator-sse-typescript/index.md",
           },
           {
             text: "🌴 Employee Vacations (HTTP - .NET)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-csharp/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-csharp/index.md",
           },
           {
             text: "🌴 Employee Vacations (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-typescript/index.md",
           },
           {
             text: "🏬 Events Management (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/events-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/events-http-typescript/index.md",
           },
           {
             text: "😁 Jokes (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-http-typescript/index.md",
           },
           {
             text: "😁 Jokes (SSE - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-sse-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/jokes-sse-typescript/index.md",
           },
           {
             text: "🌳🌲 Parks (HTTP - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/parks-http-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/parks-http-typescript/index.md",
           },
           {
             text: "🛒 Zava Inventory (HTTP - Python)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/zava-inventory-http-python/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/zava-inventory-http-python/index.md",
           },
         ],
       },
