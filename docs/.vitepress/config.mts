@@ -29,11 +29,11 @@ export default defineConfig({
         items: [
           {
             text: "🧮 Calculator (SSE Version - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/samples/calculator-sse-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/calculator-sse-typescript/",
           },
           {
             text: "🌴 Employee Vacations (Streamable HTTP version - .NET)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/samples/employeevacations-http-csharp/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-csharp/",
           },
         ],
       },
@@ -68,11 +68,11 @@ export default defineConfig({
         items: [
           {
             text: "🧮 Calculator (SSE Version - TS)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/samples/calculator-sse-typescript/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/calculator-sse-typescript/",
           },
           {
             text: "🌴 Employee Vacations (Streamable HTTP version - .NET)",
-            link: "https://github.com/microsoft/copilot-studio-mcp/samples/employeevacations-http-csharp/",
+            link: "https://github.com/microsoft/copilot-studio-mcp/tree/main/samples/employeevacations-http-csharp/",
           },
         ],
       },
