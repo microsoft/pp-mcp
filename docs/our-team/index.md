@@ -1,5 +1,10 @@
 <script setup>
-import { VPTeamMembers } from 'vitepress/theme'
+import {
+  VPTeamPage,
+  VPTeamPageTitle,
+  VPTeamMembers,
+  VPTeamPageSection
+} from 'vitepress/theme'
 
 const powerAdvocacy = [
   {
@@ -43,7 +48,7 @@ const powerAdvocacy = [
   }
 ]
 
-const communityContributions = [
+const communityContributors = [
   {
     avatar: 'https://www.github.com/biswapm.png',
     name: 'Pujarini Mohapatra',
@@ -75,10 +80,10 @@ Say hello to the team behind these Power Platform MCP labs!
 
 The following people have provided samples to this project! Thanks for all your contributions!
 
-<VPTeamMembers size="small" :communityContributions />
+<VPTeamMembers size="small" :members="communityContributors" />
 
 ## Power Platform Advocacy
 
 This project is started by Power Platform Advocacy. The team members are listed below.
 
-<VPTeamMembers size="small" :powerAdvocacy />
+<VPTeamMembers size="small" ::members="powerAdvocacy" />
