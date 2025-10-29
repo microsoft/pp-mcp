@@ -79,6 +79,7 @@ const communityContributors = [
   <VPTeamPageTitle>
     <template #title>❤️ Contributions</template>
     <template #lead>Say hello to the team behind these Power Platform MCP labs!</template>
+    <VPTeamMembers size="small" ::members="powerAdvocacy" />
   </VPTeamPageTitle>
   <VPTeamPageSection>
     <template #title>Community Contributors</template>
@@ -87,11 +88,11 @@ const communityContributors = [
         <VPTeamMembers size="small" :members="communityContributors" />
     </template>
   </VPTeamPageSection>
-  <VPTeamPageSection>
+  <!--VPTeamPageSection>
     <template #title>Power Platform Advocacy</template>
     <template #lead>This project is started by Power Platform Advocacy. The team members are listed below.</template>
     <template #members>
         <VPTeamMembers size="small" ::members="powerAdvocacy" />
     </template>
-  </VPTeamPageSection>
+  </VPTeamPageSection-->
 </VPTeamPage>
