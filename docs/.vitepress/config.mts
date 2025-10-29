@@ -4,7 +4,7 @@ export default defineConfig({
   title: "#PPMCP Labs & Samples",
   base: "/copilot-studio-mcp/",
   ignoreDeadLinks: [
-    // ignore exact url "./"
+    // ignore exact url "./http/requests.http"
     "./http/requests.http",
     // ignore all localhost links
     /^https?:\/\/localhost/,
