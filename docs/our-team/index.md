@@ -49,7 +49,7 @@ const powerAdvocacy = [
       { icon: 'linkedin', link: 'https://linkedin.com/in/scottdurow' }
     ]
   }
-]
+];
 
 const communityContributors = [
   {
@@ -72,7 +72,7 @@ const communityContributors = [
       { icon: 'linkedin', link: 'https://linkedin.com/in/matteopagani' }
     ]
   }
-]
+];
 </script>
 
 <VPTeamPage>
