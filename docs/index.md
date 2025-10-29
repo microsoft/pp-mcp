@@ -1,3 +1,3 @@
-# Agent 365 Academy
+# Microsoft Copilot Studio & MCP Labs
 
-**Welcome to Agent 365 Academy - Curated lessons on getting started with Agent 365!**
+Welcome to Microsoft Copilot Studio & MCP Labs. Curated lessons on getting started with Microsoft Copilot Studio & MCP.
