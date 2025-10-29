@@ -31,6 +31,10 @@ export default defineConfig({
             text: "🧮 Calculator (SSE Version)",
             link: "https://github.com/microsoft/copilot-studio-mcp/samples/calculator-sse-typescript/",
           },
+          {
+            text: "🌴 Employee Vacations MCP Server Sample (Streamable HTTP version)",
+            link: "https://github.com/microsoft/copilot-studio-mcp/samples/employeevacations-http-csharp/",
+          },
         ],
       },
     ],
