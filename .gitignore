@@ -396,3 +396,12 @@ AzuriteConfig
 __azurite_db_table__.*
 *.env
 src/csharp/SSE/ttk2-agent/.env
+
+# ignore macos files
+.DS_Store
+
+# node_modules
+node_modules/
+
+# cache
+cache/

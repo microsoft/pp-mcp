@@ -1,0 +1,27 @@
+// Configuration for markdownlint
+// See https://github.com/DavidAnson/markdownlint/blob/v0.32.1/schema/.markdownlint.jsonc
+{
+  
+  // Default state for all rules
+  "default": true,
+
+  // MD013/line-length : Line length : https://github.com/DavidAnson/markdownlint/blob/v0.32.1/doc/md013.md
+  // Justification: Line length standard has not been defined
+  "MD013": false,
+
+  // MD024/no-duplicate-heading : Multiple headings with the same content : https://github.com/DavidAnson/markdownlint/blob/v0.32.1/doc/md024.md
+  // Justification: Some sections have a common template sub-heading format.
+  "MD024": {
+    // Only check sibling headings
+    "siblings_only": true
+  },
+
+  "MD029": {
+    "style": "one"
+  },
+
+  // MD046/code-block-style : Code block style : https://github.com/DavidAnson/markdownlint/blob/v0.32.1/doc/md046.md
+  // Justification: Code blocks are used for text
+  "MD046": false
+
+}
