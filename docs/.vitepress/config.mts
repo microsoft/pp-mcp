@@ -14,6 +14,15 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Our Team", link: "/our-team/" },
       {
+        text: "Labs",
+        items: [
+          {
+            text: "Microsoft Copilot Studio ❤️ MCP",
+            link: "https://aka.ms/mcsmcplab",
+          },
+        ],
+      },
+      {
         text: "Samples",
         items: [
           {
