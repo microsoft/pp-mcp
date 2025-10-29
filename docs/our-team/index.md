@@ -83,6 +83,7 @@ const communityContributors = [
     <template #members>
         <VPTeamMembers size="small" :members="communityContributors" />
     </template>
+  </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>Power Platform Advocacy</template>
     <template #lead>This project is started by Power Platform Advocacy. The team members are listed below.</template>
