@@ -22,7 +22,7 @@ export default defineConfig({
       { text: "🏠 Home", link: "/" },
       { text: "❤️ Contributions", link: "/contributions/" },
       {
-        text: "Labs",
+        text: "🧪 Labs",
         items: [
           {
             text: "Microsoft Copilot Studio ❤️ MCP",
@@ -35,7 +35,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "Samples",
+        text: "✨ Samples",
         items: [
           {
             text: "🧮 Calculator (SSE - TS)",
@@ -79,7 +79,7 @@ export default defineConfig({
       },
       { text: "❤️ Contributions", link: "/contributions/" },
       {
-        text: "Labs",
+        text: "🧪 Labs",
         collapsed: true,
         items: [
           {
@@ -93,7 +93,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "Samples",
+        text: "✨ Samples",
         collapsed: true,
         items: [
           {
