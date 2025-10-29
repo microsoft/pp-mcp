@@ -74,7 +74,7 @@ export default defineConfig({
       },
       {
         text: "Labs",
-        collapse: true,
+        collapsed: true,
         items: [
           {
             text: "Microsoft Copilot Studio ❤️ MCP",
@@ -88,7 +88,7 @@ export default defineConfig({
       },
       {
         text: "Samples",
-        collapse: true,
+        collapsed: true,
         items: [
           {
             text: "🧮 Calculator (SSE - TS)",
