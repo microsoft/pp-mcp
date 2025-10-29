@@ -1,4 +1,4 @@
-# Zava Inventory MCP Server
+# 🛒 Zava Inventory MCP Server
 
 A comprehensive Model Context Protocol (MCP) server for managing inventory across multiple store locations. This server provides a complete suite of tools for managing products, stores, and inventory data for the fictional retail company "Zava".
 
