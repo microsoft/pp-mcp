@@ -5,7 +5,7 @@ export default defineConfig({
   base: "/copilot-studio-mcp/",
   ignoreDeadLinks: [
     // ignore exact url "./"
-    "./",
+    "./http/requests.http",
     // ignore all localhost links
     /^https?:\/\/localhost/,
     (url) => {
