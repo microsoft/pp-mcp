@@ -8,6 +8,7 @@ export default defineConfig({
     "Welcome to Power Platform MCP Labs & Samples. Curated labs & samples on getting started with Power Platform & MCP.",
   themeConfig: {
     logo: "/copilot-studio-labs/logo.png",
+    siteTitle: false,
     nav: [
       { text: "Home", link: "/" },
       { text: "Our Team", link: "/our-team/" },
