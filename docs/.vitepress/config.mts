@@ -37,11 +37,12 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Power Platform MCP Labs",
-        items: [
-          { text: "Home", link: "/" },
-          { text: "Our Team", link: "/our-team/" },
-        ],
+        text: "Home",
+        link: "/",
+      },
+      {
+        text: "Our Team",
+        link: "/our-team/",
       },
       {
         text: "Labs",
