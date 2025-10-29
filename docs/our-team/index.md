@@ -46,6 +46,6 @@ const members = [
 
 # Our Team
 
-Say hello to the team behind Agent Academy!
+Say hello to the team behind these Microsoft Copilot Studio & MCP labs!
 
 <VPTeamMembers size="small" :members />

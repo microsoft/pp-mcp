@@ -17,7 +17,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Agent Academy",
+        text: "Microsoft Copilot Studio & MCP Labs",
         items: [
           { text: "Home", link: "/" },
           { text: "Our Team", link: "/our-team/" },
