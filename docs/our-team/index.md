@@ -1,7 +1,7 @@
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
-const members = [
+const powerAdvocacy = [
   {
     avatar: 'https://www.github.com/aprildunnam.png',
     name: 'April Dunnam',
@@ -42,10 +42,43 @@ const members = [
     ]
   }
 ]
+
+const communityContributions = [
+  {
+    avatar: 'https://www.github.com/biswapm.png',
+    name: 'Pujarini Mohapatra',
+    title: 'Principal Architect @ Microsoft',
+    links: [
+      { icon: 'github', link: 'https://github.com/biswapm' },
+      { icon: 'twitter', link: 'https://twitter.com/biswapm' },
+      { icon: 'linkedin', link: 'https://linkedin.com/in/biswapm' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/qmatteoq.png',
+    name: 'Matteo Pagani',
+    title: 'Cloud Solution Architect @ Microsoft',
+    links: [
+      { icon: 'github', link: 'https://github.com/qmatteoq' },
+      { icon: 'twitter', link: 'https://twitter.com/qmatteoq' },
+      { icon: 'linkedin', link: 'https://linkedin.com/in/matteopagani' }
+    ]
+  }
+]
 </script>
 
-# Our Team
+# Contributions
 
 Say hello to the team behind these Power Platform MCP labs!
 
-<VPTeamMembers size="small" :members />
+## Community Contributors
+
+The following people have provided samples to this project! Thanks for all your contributions!
+
+<VPTeamMembers size="small" :communityContributions />
+
+## Power Platform Advocacy
+
+This project is started by Power Platform Advocacy. The team members are listed below.
+
+<VPTeamMembers size="small" :powerAdvocacy />
