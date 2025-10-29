@@ -13,6 +13,15 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Our Team", link: "/our-team/" },
+      {
+        text: "Samples",
+        items: [
+          {
+            text: "🧮 Calculator (SSE Version) - TypeScript",
+            link: "/samples/calculator-sse-typescript/",
+          },
+        ],
+      },
     ],
 
     sidebar: [
