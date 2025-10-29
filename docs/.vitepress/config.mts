@@ -20,6 +20,10 @@ export default defineConfig({
             text: "Microsoft Copilot Studio ❤️ MCP",
             link: "https://aka.ms/mcsmcplab",
           },
+          {
+            text: "Dataverse MCP Labs",
+            link: "https://aka.ms/dataverse/mcp/lab",
+          },
         ],
       },
       {
