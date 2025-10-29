@@ -72,18 +72,20 @@ const communityContributors = [
 ]
 </script>
 
-# Contributions
-
-Say hello to the team behind these Power Platform MCP labs!
-
-## Community Contributors
-
-The following people have provided samples to this project! Thanks for all your contributions!
-
-<VPTeamMembers size="small" :members="communityContributors" />
-
-## Power Platform Advocacy
-
-This project is started by Power Platform Advocacy. The team members are listed below.
-
-<VPTeamMembers size="small" ::members="powerAdvocacy" />
+<VPTeamPage>
+  <VPTeamPageTitle>
+    <template #title>❤️ Contributions</template>
+    <template #lead>Say hello to the team behind these Power Platform MCP labs!</template>
+  <VPTeamPageSection>
+    <template #title>Community Contributors</template>
+    <template #lead>The following people have provided samples to this project! Thanks for all your contributions!</template>
+  </VPTeamPageTitle>
+    <VPTeamMembers size="small" :members="communityContributors" />
+  <VPTeamPageSection>
+    <template #title>Power Platform Advocacy</template>
+    <template #lead>This project is started by Power Platform Advocacy. The team members are listed below.</template>
+    <template #members>
+      <VPTeamMembers size="small" ::members="powerAdvocacy" />
+    </template>
+  </VPTeamPageSection>
+</VPTeamPage>
