@@ -46,6 +46,6 @@ const members = [
 
 # Our Team
 
-Say hello to the team behind these Microsoft Copilot Studio & MCP labs!
+Say hello to the team behind these Power Platform MCP labs!
 
 <VPTeamMembers size="small" :members />
