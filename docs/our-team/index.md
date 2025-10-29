@@ -1,3 +1,6 @@
+---
+layout: page
+---
 <script setup>
 import {
   VPTeamPage,
