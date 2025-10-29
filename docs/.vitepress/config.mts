@@ -1,13 +1,13 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "MCS MCP Labs",
+  title: "#PPMCP Labs",
   base: "/copilot-studio-mcp/",
   head: [
     ["link", { rel: "icon", href: "/copilot-studio-mcp/images/logo.png" }],
   ],
   description:
-    "Welcome to Microsoft Copilot Studio & MCP Labs. Curated lessons on getting started with Microsoft Copilot Studio & MCP.",
+    "Welcome to Power Platform MCP Labs. Curated lessons on getting started with Power Platform & MCP.",
   themeConfig: {
     logo: "/copilot-studio-mcp/images/logo.png",
     nav: [
@@ -17,7 +17,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Microsoft Copilot Studio & MCP Labs",
+        text: "Power Platform MCP Labs",
         items: [
           { text: "Home", link: "/" },
           { text: "Our Team", link: "/our-team/" },
