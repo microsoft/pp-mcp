@@ -28,8 +28,8 @@ export default defineConfig({
         text: "Samples",
         items: [
           {
-            text: "🧮 Calculator (SSE Version) - TypeScript",
-            link: "/samples/calculator-sse-typescript/",
+            text: "🧮 Calculator (SSE Version)",
+            link: "https://github.com/microsoft/copilot-studio-mcp/samples/calculator-sse-typescript/",
           },
         ],
       },
