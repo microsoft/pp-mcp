@@ -14,6 +14,7 @@ const powerAdvocacy = [
     avatar: 'https://www.github.com/aprildunnam.png',
     name: 'April Dunnam',
     title: 'Principal Cloud Advocate',
+    org: 'Microsoft',
     links: [
       { icon: 'github', link: 'https://github.com/aprildunnam' },
       { icon: 'twitter', link: 'https://twitter.com/aprildunnam' }
@@ -23,6 +24,7 @@ const powerAdvocacy = [
     avatar: 'https://www.github.com/elaizabenitez.png',
     name: 'Elaiza Benitez',
     title: 'Senior Cloud Advocate',
+    org: 'Microsoft',
     links: [
       { icon: 'github', link: 'https://github.com/elaizabenitez' },
       { icon: 'twitter', link: 'https://twitter.com/benitezhere' },
@@ -33,6 +35,7 @@ const powerAdvocacy = [
     avatar: 'https://www.github.com/laskewitz.png',
     name: 'Daniel Laskewitz',
     title: 'Principal Cloud Advocate',
+    org: 'Microsoft',
     links: [
       { icon: 'github', link: 'https://github.com/laskewitz' },
       { icon: 'twitter', link: 'https://twitter.com/laskewitz' },
@@ -43,6 +46,7 @@ const powerAdvocacy = [
     avatar: 'https://www.github.com/scottdurow.png',
     name: 'Scott Durow',
     title: 'Senior Cloud Advocate',
+    org: 'Microsoft',
     links: [
       { icon: 'github', link: 'https://github.com/scottdurow' },
       { icon: 'twitter', link: 'https://twitter.com/scottdurow' },
@@ -55,7 +59,8 @@ const communityContributors = [
   {
     avatar: 'https://www.github.com/biswapm.png',
     name: 'Pujarini Mohapatra',
-    title: 'Principal Architect @ Microsoft',
+    title: 'Principal Architect',
+    org: 'Microsoft',
     links: [
       { icon: 'github', link: 'https://github.com/biswapm' },
       { icon: 'twitter', link: 'https://twitter.com/biswapm' },
@@ -65,7 +70,8 @@ const communityContributors = [
   {
     avatar: 'https://www.github.com/qmatteoq.png',
     name: 'Matteo Pagani',
-    title: 'Cloud Solution Architect @ Microsoft',
+    title: 'Cloud Solution Architect',
+    org: 'Microsoft',
     links: [
       { icon: 'github', link: 'https://github.com/qmatteoq' },
       { icon: 'twitter', link: 'https://twitter.com/qmatteoq' },
@@ -80,19 +86,18 @@ const communityContributors = [
     <template #title>❤️ Contributions</template>
     <template #lead>Say hello to the team behind these Power Platform MCP labs!</template>
   </VPTeamPageTitle>
-  <VPTeamMembers size="small" ::members="powerAdvocacy" />
   <VPTeamPageSection>
     <template #title>Community Contributors</template>
     <template #lead>The following people have provided samples to this project! Thanks for all your contributions!</template>
     <template #members>
-        <VPTeamMembers size="small" :members="communityContributors" />
+        <VPTeamMembers size="medium" :members="communityContributors" />
     </template>
   </VPTeamPageSection>
-  <!--VPTeamPageSection>
+  <VPTeamPageSection>
     <template #title>Power Platform Advocacy</template>
     <template #lead>This project is started by Power Platform Advocacy. The team members are listed below.</template>
     <template #members>
-        <VPTeamMembers size="small" ::members="powerAdvocacy" />
+        <VPTeamMembers size="medium" ::members="powerAdvocacy" />
     </template>
-  </VPTeamPageSection-->
+  </VPTeamPageSection>
 </VPTeamPage>
