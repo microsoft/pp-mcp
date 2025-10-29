@@ -19,8 +19,8 @@ export default defineConfig({
     logo: "/logo.png",
     siteTitle: false,
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Our Team", link: "/our-team/" },
+      { text: "🏠 Home", link: "/" },
+      { text: "❤️ Contributions", link: "/contributions/" },
       {
         text: "Labs",
         items: [
@@ -74,13 +74,10 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: "Home",
+        text: "🏠 Home",
         link: "/",
       },
-      {
-        text: "Our Team",
-        link: "/our-team/",
-      },
+      { text: "❤️ Contributions", link: "/contributions/" },
       {
         text: "Labs",
         collapsed: true,

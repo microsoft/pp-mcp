@@ -90,14 +90,14 @@ const communityContributors = [
     <template #title>Community Contributors</template>
     <template #lead>The following people have provided samples to this project! Thanks for all your contributions!</template>
     <template #members>
-        <VPTeamMembers size="medium" :members="communityContributors" />
+        <VPTeamMembers size="small" :members="communityContributors" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
     <template #title>Power Platform Advocacy</template>
     <template #lead>This project is started by Power Platform Advocacy. The team members are listed below.</template>
     <template #members>
-        <VPTeamMembers size="medium" ::members="powerAdvocacy" />
+        <VPTeamMembers size="small" :members="powerAdvocacy" />
     </template>
   </VPTeamPageSection>
 </VPTeamPage>
