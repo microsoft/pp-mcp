@@ -45,6 +45,28 @@ export default defineConfig({
           { text: "Our Team", link: "/our-team/" },
         ],
       },
+      {
+        text: "Labs",
+        items: [
+          {
+            text: "Microsoft Copilot Studio ❤️ MCP",
+            link: "https://aka.ms/mcsmcplab",
+          },
+          {
+            text: "Dataverse MCP Labs",
+            link: "https://aka.ms/dataverse/mcp/lab",
+          },
+        ],
+      },
+      {
+        text: "Samples",
+        items: [
+          {
+            text: "🧮 Calculator (SSE Version) - TypeScript",
+            link: "/samples/calculator-sse-typescript/",
+          },
+        ],
+      },
     ],
     socialLinks: [
       {
