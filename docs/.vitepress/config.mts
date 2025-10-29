@@ -1,13 +1,15 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "Agent 365 Academy",
-  base: "/agent-365-academy/",
-  head: [["link", { rel: "icon", href: "/agent-365-academy/images/logo.png" }]],
+  title: "MCS MCP Labs",
+  base: "/copilot-studio-mcp/",
+  head: [
+    ["link", { rel: "icon", href: "/copilot-studio-mcp/images/logo.png" }],
+  ],
   description:
-    "Welcome to Agent 365 Academy. Curated lessons on getting started with Agent 365.",
+    "Welcome to Microsoft Copilot Studio & MCP Labs. Curated lessons on getting started with Microsoft Copilot Studio & MCP.",
   themeConfig: {
-    logo: "/agent-365-academy/images/logo.png",
+    logo: "/copilot-studio-mcp/images/logo.png",
     nav: [
       { text: "Home", link: "/" },
       { text: "Our Team", link: "/our-team/" },
@@ -25,7 +27,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/microsoft/agent-365-academy/",
+        link: "https://github.com/microsoft/copilot-studio-mcp/",
       },
     ],
   },
