@@ -68,7 +68,7 @@ The Power Platform CLI executable is installed to:
 
 This location is automatically added to your system PATH, allowing you to run `pac` commands from any directory.
 
-## Power Platform CLI MCP
+## 🤖 Power Platform CLI MCP
 
 The Power Platform CLI (version 1.44+) includes a built-in **Model Context Protocol (MCP) server** that enables AI-powered interactions with Power Platform environments directly through chat interfaces. This integration allows you to perform Power Platform operations using natural language commands in supported AI tools like VS Code Copilot, Visual Studio, and other MCP-compatible applications.
 
