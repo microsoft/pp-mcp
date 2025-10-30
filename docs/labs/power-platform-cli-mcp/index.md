@@ -159,7 +159,43 @@ The MCP integration allows you to **selectively enable** specific CLI commands, 
 
 ## 💪 Exercise: Get advice about best practices for tenant settings
 
-Let's get a bit more concrete: you might want to
+Let's go a little bit further now: you might want to update your tenant settings to make sure those settings are applied in the right way.
+
+Managing tenant settings through the Power Platform CLI offers several significant advantages over using the Power Platform Admin Center alone:
+
+### 🎯 Key Benefits of CLI-Based Tenant Settings Management
+
+Here are the key advantages you'll gain by managing tenant settings through the CLI instead of the admin center. Each benefit demonstrates how the CLI can streamline your Power Platform operations.
+
+#### Comprehensive Settings Access
+
+The Power Platform Admin Center doesn't expose all available tenant settings through its user interface. Using `pac admin list-tenant-settings`, you can access and modify the complete set of tenant configurations, including advanced settings that aren't visible in the web portal.
+
+#### Bulk Operations
+
+Instead of manually clicking through dozens of settings in the admin center, the CLI allows you to update multiple tenant settings simultaneously. This is particularly valuable when configuring new tenants, standardizing settings across multiple environments, or implementing organization-wide policy changes.
+
+#### Version Control & Documentation
+
+By downloading tenant settings to JSON files using `pac admin list-tenant-settings --settings-file`, you can:
+
+- Track changes over time with version control systems like Git
+- Maintain configuration snapshots for compliance and auditing
+- Document your tenant configuration as code
+- Easily compare settings between different environments or time periods
+
+#### Automation & DevOps Integration
+
+CLI commands can be integrated into automated deployment pipelines, allowing you to:
+
+- Apply consistent tenant configurations across development, staging, and production
+- Include tenant settings as part of your infrastructure-as-code practices
+- Automate compliance checks and policy enforcement
+- Reduce human error in configuration management
+
+#### Disaster Recovery
+
+Having your tenant settings documented in JSON format provides a reliable backup that can be quickly restored if needed, ensuring business continuity and reducing recovery time.
 
 ### 📚 Learn More
 
