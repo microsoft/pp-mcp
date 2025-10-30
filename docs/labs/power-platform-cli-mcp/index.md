@@ -282,7 +282,7 @@ While updating individual tenant settings one at a time can be fun and education
 
 Ask GitHub Copilot to give you a detailed plan on how to enable Power Platform best practices across your organization. GitHub Copilot can analyze your current settings, identify gaps, and provide a step-by-step implementation plan spanning the upcoming weeks and months. This approach transforms tenant management from reactive troubleshooting into proactive governance planning.
 
-Try this comprehensive prompt to get started:
+Try this prompt:
 
 ```text
 Analyze my current Power Platform tenant settings and provide a strategic governance improvement plan. Please provide:
