@@ -159,7 +159,56 @@ The MCP integration allows you to **selectively enable** specific CLI commands, 
 
 ## 💪 Exercise: Get advice about best practices for tenant settings
 
-Let's go a little bit further now: you might want to update your tenant settings to make sure those settings are applied in the right way.
+Let's go a little bit further now: you might want to update your tenant settings to make sure those settings are applied in the right way. In this exercise we will use Visual Studio Code and GitHub Copilot combined with the Power Platform CLI MCP Server to get advice about best practices for tenant settings.
+
+### ✅ Prerequisites
+
+Before starting this exercise, ensure you have the following components installed and configured:
+
+#### Required Software
+
+- **Power Platform CLI (version 1.44+)** - Follow the installation steps in the [Installing Power Platform CLI with .NET Tool](#-installing-power-platform-cli-with-net-tool) section above
+- **Visual Studio Code** - Download from [code.visualstudio.com](https://code.visualstudio.com/)
+- **GitHub Copilot extension** - Install from the VS Code Extensions marketplace
+
+#### Authentication Setup
+
+- **Power Platform authentication profile** - Create an authentication profile using `pac auth create` to connect to your Power Platform tenant
+- **Admin permissions** - Ensure your account has Power Platform administrator permissions to view and modify tenant settings
+
+#### MCP Configuration
+
+- **Power Platform CLI MCP Server** - Follow the complete setup instructions in the [⚙️ Setting Up PAC CLI MCP](#️-setting-up-pac-cli-mcp) section above to:
+  - Locate your `pac-mcp.exe` executable path
+  - Add the MCP server to Visual Studio Code
+  - Verify the server is running and accessible
+
+#### Verification Steps
+
+1. **Verify Power Platform CLI installation:**
+
+   ```bash
+   pac --version
+   ```
+
+1. **Check authentication status:**
+
+   ```bash
+   pac auth list
+   ```
+
+1. **Confirm MCP server path:**
+
+   ```bash
+   pac copilot mcp
+   ```
+
+1. **Test VS Code integration:**
+   - Open VS Code
+   - Check that the Power Platform CLI MCP server appears in your MCP configuration
+   - Ensure GitHub Copilot is active and ready
+
+Once all prerequisites are met, you'll be ready to leverage natural language commands to manage your Power Platform tenant settings efficiently.
 
 Managing tenant settings through the Power Platform CLI offers several significant advantages over using the Power Platform Admin Center alone:
 
@@ -196,6 +245,32 @@ CLI commands can be integrated into automated deployment pipelines, allowing you
 #### Disaster Recovery
 
 Having your tenant settings documented in JSON format provides a reliable backup that can be quickly restored if needed, ensuring business continuity and reducing recovery time.
+
+### 🤖 Adding Power Platform CLI MCP to the mix
+
+The Power Platform CLI MCP Server transforms tenant settings management by eliminating the need to memorize complex command syntax and parameter combinations. Instead of having to remember commands like `pac admin list-tenant-settings --settings-file "config.json"` or struggling to recall which specific parameters control environment creation policies, you can simply ask in natural language what you want to accomplish.
+
+#### Example 1: Viewing Current Tenant Settings
+
+Instead of remembering the exact CLI syntax to export tenant settings, you can simply ask to see specific configuration details:
+
+```text
+Show me the current tenant settings for trial environment creation
+```
+
+This will give you an output like this:
+
+![Show trial environment creation setting](./assets/show-trial-env-creation-setting.png)
+
+#### Example 2: Updating Tenant Policies
+
+Rather than looking up the correct parameters for environment creation restrictions, you can describe the policy change you want to implement:
+
+```text
+Update my tenant to restrict developer environments to admins only
+```
+
+The AI will execute the appropriate CLI commands on your behalf, making Power Platform administration accessible to team members who may not be familiar with command-line interfaces while still leveraging the full power and flexibility of the CLI tools.
 
 ### 📚 Learn More
 
