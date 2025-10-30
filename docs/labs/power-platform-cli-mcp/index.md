@@ -267,8 +267,12 @@ This will give you an output like this:
 Rather than looking up the correct parameters for environment creation restrictions, you can describe the policy change you want to implement:
 
 ```text
-Update my tenant to restrict developer environments to admins only
+Update my tenant to restrict developer environment creation to admins only
 ```
+
+This will give you an output like this:
+
+![Restrict developer environment creation to admins only](./assets/restrict-developer-environments-to-admins-only.png)
 
 The AI will execute the appropriate CLI commands on your behalf, making Power Platform administration accessible to team members who may not be familiar with command-line interfaces while still leveraging the full power and flexibility of the CLI tools.
 
