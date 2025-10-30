@@ -21,7 +21,7 @@ The .NET Tool installation method enables you to use Power Platform CLI commands
 ### Prerequisites
 
 Before installing the Power Platform CLI, ensure you have:
-- **.NET 6.0 or later** installed on your system
+- **.NET 6.0 or later (preferably install the latest version)** installed on your system ([Download .NET](https://dotnet.microsoft.com/download))
 - An **internet connection** for downloading the NuGet package
 
 ### Installation Steps
