@@ -112,11 +112,11 @@ pac copilot mcp
 
 This command will display the exact path to your `pac-mcp.exe` file.
 
-#### 2. Configure MCP in VS Code
+#### 2. Configure MCP in Visual Studio Code
 
-To use the PAC CLI MCP server in VS Code:
+To use the Power Platform CLI MCP server in Visual Studio Code:
 
-1. Open VS Code settings (Ctrl+,)
+1. Open Visual Studio Code settings (Ctrl+,)
 1. Search for "MCP" or navigate to Extensions > GitHub Copilot > MCP Servers
 1. Add a new MCP server configuration with:
    - **Name**: `powerplatform-cli`
@@ -132,7 +132,7 @@ For Visual Studio integration:
 1. Provide the path to `pac-mcp.exe`
 1. Select which tools/commands to enable
 
-### 💬 Using PAC CLI with AI Chat
+### 💬 Using Power Platform CLI with AI Chat
 
 Once configured, you can interact with Power Platform using natural language:
 
