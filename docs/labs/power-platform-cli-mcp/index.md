@@ -21,21 +21,26 @@ The .NET Tool installation method enables you to use Power Platform CLI commands
 ### ✅ Prerequisites
 
 Before installing the Power Platform CLI, ensure you have:
+
 - **.NET 6.0 or later (preferably install the latest version)** installed on your system ([Download .NET](https://dotnet.microsoft.com/download))
 - An **internet connection** for downloading the NuGet package
 
 ### 🚀 Installation Steps
 
 1. **Install the CLI globally** using the .NET tool install command:
+
    ```bash
    dotnet tool install --global Microsoft.PowerApps.CLI.Tool
    ```
 
 1. **Verify the installation** by checking the version:
+
    ```bash
    pac
    ```
+
    You should see output similar to:
+
    ```
    Microsoft PowerPlatform CLI
    Version: 1.30.3+g0f0e0b9
@@ -44,11 +49,13 @@ Before installing the Power Platform CLI, ensure you have:
 ### 🔧 Managing Your Installation
 
 **Update to the latest version:**
+
 ```bash
 dotnet tool update --global Microsoft.PowerApps.CLI.Tool
 ```
 
 **Uninstall if needed:**
+
 ```bash
 dotnet tool uninstall --global Microsoft.PowerApps.CLI.Tool
 ```
@@ -56,6 +63,7 @@ dotnet tool uninstall --global Microsoft.PowerApps.CLI.Tool
 ### 📁 File Locations
 
 The Power Platform CLI executable is installed to:
+
 - `%USERPROFILE%\.dotnet\tools`
 
 This location is automatically added to your system PATH, allowing you to run `pac` commands from any directory.
@@ -68,6 +76,7 @@ This location is automatically added to your system PATH, allowing you to run `p
 ### 🎯 Next Steps
 
 Once installed, you can:
+
 - Run `pac help` to see all available commands
 - Use `pac auth create` to connect to your Power Platform environment
 - Explore the comprehensive command reference in the [Microsoft Power Platform CLI documentation](https://learn.microsoft.com/power-platform/developer/cli/reference/)
