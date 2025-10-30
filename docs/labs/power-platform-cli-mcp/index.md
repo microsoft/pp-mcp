@@ -128,44 +128,6 @@ To use the Power Platform CLI MCP server in Visual Studio Code:
 
 This should add the MCP server to your MCP configuration in Visual Studio Code. It should also be running. If it's not, make sure to start it.
 
-### 💬 Using Power Platform CLI with AI Chat
-
-Once configured, you can interact with Power Platform using natural language:
-
-**Example Commands:**
-
-View all available Power Platform environments in your tenant:
-
-```text
-List all my Power Platform environments
-```
-
-Export a specific solution from your development environment:
-
-```text
-Export the solution named 'MySolution' from the development environment
-```
-
-Check your current authentication configuration:
-
-```text
-Show me the authentication profiles configured
-```
-
-Create a new environment for testing purposes:
-
-```text
-Create a new environment for testing
-```
-
-Deploy a solution package to your production environment:
-
-```text
-Import the solution package into production
-```
-
-The AI will translate these requests into appropriate `pac` commands and execute them through the MCP server.
-
 ### 🛡️ Security and Tool Selection
 
 The MCP integration allows you to **selectively enable** specific CLI commands, giving you control over which operations the AI can perform. This ensures security by limiting access to only the tools you need for your workflow.
