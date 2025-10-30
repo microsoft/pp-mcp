@@ -1,4 +1,15 @@
-# ⚡ Power Platform CLI MCP (work-in-progress)
+# ⚡ Power Platform CLI Model Context Protocol (MCP)
+
+In this hands-on lab, you'll discover how to supercharge your Power Platform administration by combining the Power Platform CLI with AI-powered assistance through the Model Context Protocol (MCP). Instead of memorizing complex command syntax, you'll learn to use natural language to manage environments, analyze tenant settings, and implement governance strategies.
+
+**What you'll learn:**
+
+- Set up the Power Platform CLI MCP server in Visual Studio Code & GitHub Copilot
+- Use AI to execute Power Platform operations through natural language commands
+- Analyze your tenant configuration and get strategic governance recommendations
+- Implement best practices for enterprise-grade Power Platform governance
+
+**Prerequisites:** Power Platform admin access, Visual Studio Code, and GitHub Copilot extension.
 
 ## ❓ What is Microsoft Power Platform CLI?
 
