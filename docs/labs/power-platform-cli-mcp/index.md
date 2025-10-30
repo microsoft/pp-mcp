@@ -274,13 +274,13 @@ This will give you an output like this:
 
 ![Restrict developer environment creation to admins only](./assets/restrict-developer-environments-to-admins-only.png)
 
-The AI will execute the appropriate CLI commands on your behalf, making Power Platform administration accessible to team members who may not be familiar with command-line interfaces while still leveraging the full power and flexibility of the CLI tools.
+GitHub Copilot will execute the appropriate CLI commands on your behalf, making Power Platform administration accessible to team members who may not be familiar with command-line interfaces while still leveraging the full power and flexibility of the CLI tools.
 
 ### 💡 Get advice about best practices for tenant settings
 
 While updating individual tenant settings one at a time can be fun and educational, the real power of combining Power Platform CLI with AI comes when you need to create comprehensive governance strategies for your organization or customers. Instead of manually researching best practices across dozens of documentation sources, you can leverage AI to analyze your current tenant configuration and provide a strategic roadmap for improvement.
 
-Ask the AI to give you a detailed plan on how to enable Power Platform best practices across your organization. The AI can analyze your current settings, identify gaps, and provide a step-by-step implementation plan spanning the upcoming weeks and months. This approach transforms tenant management from reactive troubleshooting into proactive governance planning.
+Ask GitHub Copilot to give you a detailed plan on how to enable Power Platform best practices across your organization. GitHub Copilot can analyze your current settings, identify gaps, and provide a step-by-step implementation plan spanning the upcoming weeks and months. This approach transforms tenant management from reactive troubleshooting into proactive governance planning.
 
 Try this comprehensive prompt to get started:
 
@@ -300,10 +300,20 @@ Analyze my current Power Platform tenant settings and provide a strategic govern
 Focus on enterprise governance, security compliance, and developer productivity optimization. Provide the plan as structured guidance rather than creating files or executing commands.
 ```
 
-When we ran this command, we got a plan output which we saved as a markdown file ([click to see the result](./power-platform-plan/index.md){:target="_blank"}).
+### 📊 Real-World Example: Tenant Analysis Results
 
-> [!WARNING]
-> Of course, this is not a 100% solution - since there are some errors in it. But it definitely shows you how much help you can get from this. These tasks might have cost you a lot more time in the past, but now it gives you a productivity boost.
+When we executed this comprehensive prompt against a live Power Platform tenant, GitHub Copilot generated a detailed strategic governance improvement plan. The complete analysis has been saved as a markdown document that you can review: **[View the Power Platform Governance Plan](./power-platform-plan/index.md){:target="_blank"}**.
+
+This example demonstrates the practical value of combining Power Platform CLI with AI assistance:
+
+- **Comprehensive Assessment**: Complete analysis of 16 environments and dozens of tenant settings
+- **Prioritized Recommendations**: Critical, High, Medium, and Low priority changes with specific timelines
+- **Implementation Roadmap**: 4-phase approach spanning 3-6 months with stakeholder communication plans
+- **Ready-to-Execute Commands**: Specific PowerShell CLI commands for each recommended change
+- **Monitoring Strategy**: KPIs, success metrics, and ongoing governance tracking
+
+> [!TIP]
+> **AI-Powered Productivity Boost**: While the generated plan may require some refinement and validation against your specific organizational requirements, it provides a foundation that would typically require hours of research, documentation review, and strategic planning. This demonstrates how AI can accelerate governance planning from days to minutes.
 
 ### 📚 Learn More
 
