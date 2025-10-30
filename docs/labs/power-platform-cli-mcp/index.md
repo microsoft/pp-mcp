@@ -128,6 +128,8 @@ To use the Power Platform CLI MCP server in Visual Studio Code:
 
 This should add the MCP server to your MCP configuration in Visual Studio Code. It should also be running. If it's not, make sure to start it.
 
+![Power Platform CLI MCP running in Visual Studio Code](./assets/powerplatform-cli-mcp-added-vs-code.png)
+
 ### 🛡️ Security and Tool Selection
 
 The MCP integration allows you to **selectively enable** specific CLI commands, giving you control over which operations the AI can perform. This ensures security by limiting access to only the tools you need for your workflow.
