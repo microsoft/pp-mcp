@@ -1,6 +1,6 @@
-# Power Platform CLI MCP (work-in-progress)
+# ⚡ Power Platform CLI MCP (work-in-progress)
 
-## What is Microsoft Power Platform CLI?
+## ❓ What is Microsoft Power Platform CLI?
 
 Microsoft Power Platform CLI is a simple, one-stop developer command-line interface that empowers developers and independent software vendors (ISVs) to perform various operations in Microsoft Power Platform. This powerful tool enables you to manage and automate tasks related to:
 
@@ -14,17 +14,17 @@ Microsoft Power Platform CLI is a simple, one-stop developer command-line interf
 
 The CLI provides a consistent interface on Windows, making it an essential tool for Power Platform developers.
 
-## Installing Power Platform CLI with .NET Tool
+## 💾 Installing Power Platform CLI with .NET Tool
 
 The .NET Tool installation method enables you to use Power Platform CLI commands within PowerShell and CMD shells on Windows.
 
-### Prerequisites
+### ✅ Prerequisites
 
 Before installing the Power Platform CLI, ensure you have:
 - **.NET 6.0 or later (preferably install the latest version)** installed on your system ([Download .NET](https://dotnet.microsoft.com/download))
 - An **internet connection** for downloading the NuGet package
 
-### Installation Steps
+### 🚀 Installation Steps
 
 1. **Install the CLI globally** using the .NET tool install command:
    ```bash
@@ -41,7 +41,7 @@ Before installing the Power Platform CLI, ensure you have:
    Version: 1.30.3+g0f0e0b9
    ```
 
-### Managing Your Installation
+### 🔧 Managing Your Installation
 
 **Update to the latest version:**
 ```bash
@@ -53,19 +53,19 @@ dotnet tool update --global Microsoft.PowerApps.CLI.Tool
 dotnet tool uninstall --global Microsoft.PowerApps.CLI.Tool
 ```
 
-### File Locations
+### 📁 File Locations
 
 The Power Platform CLI executable is installed to:
 - `%USERPROFILE%\.dotnet\tools`
 
 This location is automatically added to your system PATH, allowing you to run `pac` commands from any directory.
 
-### Important Notes
+### ⚠️ Important Notes
 
 - **Internet connection required**: All installations and updates require internet access to download the latest NuGet package
 - **User-specific installation**: The tool is installed per user, not system-wide
 
-### Next Steps
+### 🎯 Next Steps
 
 Once installed, you can:
 - Run `pac help` to see all available commands
