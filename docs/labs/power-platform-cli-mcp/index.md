@@ -22,7 +22,7 @@ The .NET Tool installation method enables you to use Power Platform CLI commands
 
 Before installing the Power Platform CLI, ensure you have:
 
-- **.NET 6.0 or later (preferably install the latest version)** installed on your system ([Download .NET](https://dotnet.microsoft.com/download))
+- **.NET 8.0 or later (preferably install the latest version)** installed on your system ([Download .NET](https://dotnet.microsoft.com/download))
 - An **internet connection** for downloading the NuGet package
 
 ### 🚀 Installation Steps
@@ -68,15 +68,113 @@ The Power Platform CLI executable is installed to:
 
 This location is automatically added to your system PATH, allowing you to run `pac` commands from any directory.
 
-### ⚠️ Important Notes
+## Power Platform CLI MCP
 
-- **Internet connection required**: All installations and updates require internet access to download the latest NuGet package
-- **User-specific installation**: The tool is installed per user, not system-wide
+The Power Platform CLI (version 1.44+) includes a built-in **Model Context Protocol (MCP) server** that enables AI-powered interactions with Power Platform environments directly through chat interfaces. This integration allows you to perform Power Platform operations using natural language commands in supported AI tools like VS Code Copilot, Visual Studio, and other MCP-compatible applications.
 
-### 🎯 Next Steps
+### 🚀 What is MCP Integration?
 
-Once installed, you can:
+The MCP server exposes Power Platform CLI commands as tools that AI assistants can invoke on your behalf. Instead of memorizing complex CLI syntax, you can simply describe what you want to accomplish in natural language, and the AI will execute the appropriate commands.
 
-- Run `pac help` to see all available commands
-- Use `pac auth create` to connect to your Power Platform environment
-- Explore the comprehensive command reference in the [Microsoft Power Platform CLI documentation](https://learn.microsoft.com/power-platform/developer/cli/reference/)
+**Key Benefits:**
+
+- **Natural Language Interface** - Describe tasks in plain English instead of remembering CLI syntax
+- **Intelligent Command Selection** - AI chooses the right commands based on your intent  
+- **Contextual Assistance** - Get help with Power Platform operations without leaving your development environment
+- **Selective Tool Access** - Choose which CLI commands to expose for security and simplicity
+
+### 📋 Supported Operations
+
+The MCP server currently supports **20+ Power Platform CLI commands** including:
+
+- **Environment Management** - List, create, and manage Power Platform environments
+- **Solution Operations** - Import, export, and package solutions
+- **Authentication** - Handle auth profiles and tenant connections
+- **Dataverse Operations** - Work with tables, data, and configurations
+- **Power Pages** - Manage website deployments and configurations
+- **Component Management** - Handle PCF controls and other components
+
+### ⚙️ Setting Up PAC CLI MCP
+
+#### 1. Locate the MCP Executable
+
+After installing Power Platform CLI via the .NET tool, the MCP server executable is available at:
+
+```text
+%USERPROFILE%\.dotnet\tools\.store\microsoft.powerapps.cli.tool\[version]\microsoft.powerapps.cli.tool\[version]\tools\net8.0\any\pac-mcp.exe
+```
+
+**Quick way to find the location:**
+
+```bash
+pac copilot mcp
+```
+
+This command will display the exact path to your `pac-mcp.exe` file.
+
+#### 2. Configure MCP in VS Code
+
+To use the PAC CLI MCP server in VS Code:
+
+1. Open VS Code settings (Ctrl+,)
+1. Search for "MCP" or navigate to Extensions > GitHub Copilot > MCP Servers
+1. Add a new MCP server configuration with:
+   - **Name**: `powerplatform-cli`
+   - **Executable Path**: Full path to `pac-mcp.exe`
+   - **Arguments**: (optional command-line arguments)
+
+#### 3. Configure MCP in Visual Studio
+
+For Visual Studio integration:
+
+1. Go to Tools > Options > GitHub Copilot > MCP Servers
+1. Click "Add" to create a new server entry
+1. Provide the path to `pac-mcp.exe`
+1. Select which tools/commands to enable
+
+### 💬 Using PAC CLI with AI Chat
+
+Once configured, you can interact with Power Platform using natural language:
+
+**Example Commands:**
+
+- "List all my Power Platform environments"
+- "Export the solution named 'MySolution' from the development environment"
+- "Show me the authentication profiles configured"
+- "Create a new environment for testing"
+- "Import the solution package into production"
+
+The AI will translate these requests into appropriate `pac` commands and execute them through the MCP server.
+
+### 🛡️ Security and Tool Selection
+
+The MCP integration allows you to **selectively enable** specific CLI commands, giving you control over which operations the AI can perform. This ensures security by limiting access to only the tools you need for your workflow.
+
+**Best Practices:**
+
+- Enable only the commands you regularly use
+- Review tool permissions before granting access
+- Use environment-specific configurations for different projects
+- Monitor MCP server logs for executed commands
+
+### 🔧 Troubleshooting
+
+**Common Issues:**
+
+1. **MCP Server Not Found**
+   - Verify the path to `pac-mcp.exe` using `pac copilot mcp`
+   - Ensure Power Platform CLI version 1.44+ is installed
+
+1. **Authentication Errors**
+   - Run `pac auth list` to verify your authentication profiles
+   - Set up authentication using `pac auth create` if needed
+
+1. **Tool Access Warnings**
+   - Check the Output window in VS Code for MCP-related messages
+   - Verify tool permissions in MCP server configuration
+
+### 📚 Learn More
+
+- [Adding an MCP server in Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-servers#adding-an-mcp-server)
+- [Power Platform CLI Documentation](https://learn.microsoft.com/power-platform/developer/cli/introduction)
+- [GitHub Discussion: PAC CLI MCP Preview](https://github.com/microsoft/powerplatform-build-tools/discussions/1182)
