@@ -336,6 +336,6 @@ This example demonstrates the practical value of combining Power Platform CLI wi
 ### 📚 Learn More
 
 - [Power Platform Governance Plan Example](./power-platform-plan/index.md){:target="_blank"} - Real-world strategic governance improvement plan generated using AI
-- [Adding an MCP server in Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-servers#adding-an-mcp-server)
+- [Adding an MCP server in Visual Studio Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 - [Power Platform CLI Documentation](https://learn.microsoft.com/power-platform/developer/cli/introduction)
 - [GitHub Discussion: PAC CLI MCP Preview](https://github.com/microsoft/powerplatform-build-tools/discussions/1182)
