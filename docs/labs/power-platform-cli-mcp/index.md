@@ -302,7 +302,8 @@ Focus on enterprise governance, security compliance, and developer productivity 
 
 When we ran this command, we got a plan output which we saved as a [markdown file (click to see the result)](./power-platform-plan/index.md){:target="_blank"}.
 
-This approach enables you to move beyond tactical settings management to strategic Power Platform governance, ensuring your organization maximizes the platform's potential while maintaining security and compliance standards.
+> [!WARNING]
+> Of course, this is not a 100% solution - since there are some errors in it. But it definitely shows you how much help you can get from this. These tasks might have cost you a lot more time in the past, but now it gives you a productivity boost.
 
 ### 📚 Learn More
 
