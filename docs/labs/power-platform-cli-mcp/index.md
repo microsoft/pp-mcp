@@ -276,6 +276,32 @@ This will give you an output like this:
 
 The AI will execute the appropriate CLI commands on your behalf, making Power Platform administration accessible to team members who may not be familiar with command-line interfaces while still leveraging the full power and flexibility of the CLI tools.
 
+### 💡 Get advice about best practices for tenant settings
+
+While updating individual tenant settings one at a time can be fun and educational, the real power of combining Power Platform CLI with AI comes when you need to create comprehensive governance strategies for your organization or customers. Instead of manually researching best practices across dozens of documentation sources, you can leverage AI to analyze your current tenant configuration and provide a strategic roadmap for improvement.
+
+Ask the AI to give you a detailed plan on how to enable Power Platform best practices across your organization. The AI can analyze your current settings, identify gaps, and provide a step-by-step implementation plan spanning the upcoming weeks and months. This approach transforms tenant management from reactive troubleshooting into proactive governance planning.
+
+Try this comprehensive prompt to get started:
+
+```text
+Analyze my current Power Platform tenant settings and create a comprehensive best practices implementation plan. I need:
+
+1. An assessment of my current tenant configuration against Microsoft's recommended best practices
+2. A prioritized list of settings that should be updated for better security, governance, and user experience
+3. A step-by-step implementation roadmap for the next 3-6 months, including:
+   - Week-by-week tasks and milestones
+   - Risk assessment for each change
+   - Communication plan for end users
+   - Rollback procedures for critical changes
+4. Specific CLI commands to implement each recommended change
+5. Monitoring and validation steps to ensure successful implementation
+
+Please focus on enterprise governance, security compliance, and developer productivity optimization.
+```
+
+This approach enables you to move beyond tactical settings management to strategic Power Platform governance, ensuring your organization maximizes the platform's potential while maintaining security and compliance standards.
+
 ### 📚 Learn More
 
 - [Adding an MCP server in Visual Studio](https://learn.microsoft.com/visualstudio/ide/mcp-servers#adding-an-mcp-server)
