@@ -138,11 +138,35 @@ Once configured, you can interact with Power Platform using natural language:
 
 **Example Commands:**
 
-- "List all my Power Platform environments"
-- "Export the solution named 'MySolution' from the development environment"
-- "Show me the authentication profiles configured"
-- "Create a new environment for testing"
-- "Import the solution package into production"
+View all available Power Platform environments in your tenant:
+
+```text
+List all my Power Platform environments
+```
+
+Export a specific solution from your development environment:
+
+```text
+Export the solution named 'MySolution' from the development environment
+```
+
+Check your current authentication configuration:
+
+```text
+Show me the authentication profiles configured
+```
+
+Create a new environment for testing purposes:
+
+```text
+Create a new environment for testing
+```
+
+Deploy a solution package to your production environment:
+
+```text
+Import the solution package into production
+```
 
 The AI will translate these requests into appropriate `pac` commands and execute them through the MCP server.
 
