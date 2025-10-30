@@ -1,10 +1,8 @@
-# 🤖 Microsoft Copilot Studio & Model Context Protocol (MCP) Samples
+# 🤖 Power Platform MCP Labs & Samples
 
-This repository will contain MCP Samples that work with Microsoft Copilot Studio.
+This repository contains MCP Labs & Samples that work with the Power Platform.
 
-## 👨‍💻 Samples
-
-The samples can be found in the [samples directory](./samples/) in this repository.
+[🌐 Check it out!](https://aka.ms/pp-mcp)
 
 ## 🚀 Contributing
 
