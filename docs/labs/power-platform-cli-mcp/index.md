@@ -1,4 +1,4 @@
-# Power Platform CLI MCP
+# Power Platform CLI MCP (work-in-progress)
 
 ## What is Microsoft Power Platform CLI?
 

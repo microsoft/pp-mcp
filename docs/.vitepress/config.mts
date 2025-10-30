@@ -32,6 +32,10 @@ export default defineConfig({
             text: 'Dataverse MCP Labs',
             link: 'https://aka.ms/dataverse/mcp/lab',
           },
+          {
+            text: 'Power Platform CLI MCP',
+            link: '/labs/power-platform-cli-mcp/',
+          },
         ],
       },
       {
