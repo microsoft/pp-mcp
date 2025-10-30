@@ -14,10 +14,11 @@ The labs section provides hands-on tutorials and guided exercises to help you le
 ### Lab Structure
 
 Each lab includes:
-* Step-by-step instructions
-* Code samples and templates
-* Expected outcomes and validation steps
-* Additional resources for further learning
+
+- Step-by-step instructions
+- Code samples and templates
+- Expected outcomes and validation steps
+- Additional resources for further learning
 
 Whether you're new to MCP or looking to expand your integration capabilities, these labs will help you master the fundamentals and advanced concepts of working with MCP Servers in the Power Platform.
 
@@ -30,6 +31,7 @@ Our comprehensive collection of samples provides ready-to-use Model Context Prot
 We offer diverse samples across multiple programming languages and communication protocols:
 
 **TypeScript Samples:**
+
 - **Calculator (SSE)**: Basic mathematical operations using Server-Sent Events
 - **Employee Vacations (HTTP)**: Employee vacation management with HTTP streaming
 - **Events Management (HTTP)**: Event planning and management system
@@ -37,15 +39,18 @@ We offer diverse samples across multiple programming languages and communication
 - **Parks MCP Server**: National parks information and search capabilities
 
 **C# Samples:**
+
 - **Employee Vacations (HTTP)**: .NET implementation of vacation management system
 
 **Python Samples:**
+
 - **Zava Inventory (HTTP)**: Inventory management system with Python backend
 
 ### Communication Protocols
 
 Our samples demonstrate different MCP communication approaches:
-- **Streamable HTTP (HTTP)*: Real-time data flow with streamable HTTP connections
+
+- **Streamable HTTP (HTTP)**: Real-time data flow with streamable HTTP connections
 - **Server-Sent Events (SSE)**: Efficient one-way communication for live updates
 
 ### What Each Sample Includes
