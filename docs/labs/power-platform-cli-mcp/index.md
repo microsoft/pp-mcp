@@ -1,4 +1,4 @@
-# ⚡ Power Platform CLI Model Context Protocol (MCP)
+# ⚡ Power Platform CLI MCP Server
 
 In this hands-on lab, you'll discover how to supercharge your Power Platform administration by combining the Power Platform CLI with AI-powered assistance through the Model Context Protocol (MCP). Instead of memorizing complex command syntax, you'll learn to use natural language to manage environments, analyze tenant settings, and implement governance strategies.
 
