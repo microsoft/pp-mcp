@@ -323,8 +323,8 @@ This example demonstrates the practical value of combining Power Platform CLI wi
 - **Ready-to-Execute Commands**: Specific PowerShell CLI commands for each recommended change
 - **Monitoring Strategy**: KPIs, success metrics, and ongoing governance tracking
 
-> [!TIP]
-> **AI-Powered Productivity Boost**: While the generated plan may require some refinement and validation against your specific organizational requirements, it provides a foundation that would typically require hours of research, documentation review, and strategic planning. This demonstrates how AI can accelerate governance planning from days to minutes.
+> [!WARNING]
+> While the generated plan may require some refinement and validation against your specific organizational requirements, it provides a foundation that would typically require hours of research, documentation review, and strategic planning. This demonstrates how AI can accelerate governance planning from days to minutes.
 
 ### 📚 Learn More
 
