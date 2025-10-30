@@ -273,9 +273,9 @@ This will give you an output like this:
 
 ![Show trial environment creation setting](./assets/show-trial-env-creation-setting.png)
 
-#### Example 2: Updating Tenant Policies
+#### Example 2: Updating Tenant Settings
 
-Rather than looking up the correct parameters for environment creation restrictions, you can describe the policy change you want to implement:
+Rather than looking up the correct parameters for environment creation restrictions, you can describe the setting change you want to implement:
 
 ```text
 Update my tenant to restrict developer environment creation to admins only
