@@ -41,7 +41,7 @@ Before installing the Power Platform CLI, ensure you have:
 
    You should see output similar to:
 
-   ```
+   ```text
    Microsoft PowerPlatform CLI
    Version: 1.30.3+g0f0e0b9
    ```
