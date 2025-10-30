@@ -300,7 +300,7 @@ Analyze my current Power Platform tenant settings and provide a strategic govern
 Focus on enterprise governance, security compliance, and developer productivity optimization. Provide the plan as structured guidance rather than creating files or executing commands.
 ```
 
-When we ran this command, we got a plan output which we saved as a [markdown file (click to see the result)](./power-platform-plan/index.md){:target="_blank"}.
+When we ran this command, we got a plan output which we saved as a markdown file ([click to see the result](./power-platform-plan/index.md){:target="_blank"}).
 
 > [!WARNING]
 > Of course, this is not a 100% solution - since there are some errors in it. But it definitely shows you how much help you can get from this. These tasks might have cost you a lot more time in the past, but now it gives you a productivity boost.
