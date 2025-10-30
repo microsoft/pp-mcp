@@ -285,20 +285,22 @@ Ask the AI to give you a detailed plan on how to enable Power Platform best prac
 Try this comprehensive prompt to get started:
 
 ```text
-Analyze my current Power Platform tenant settings and create a comprehensive best practices implementation plan. I need:
+Analyze my current Power Platform tenant settings and provide a strategic governance improvement plan. Please provide:
 
 1. An assessment of my current tenant configuration against Microsoft's recommended best practices
-2. A prioritized list of settings that should be updated for better security, governance, and user experience
-3. A step-by-step implementation roadmap for the next 3-6 months, including:
-   - Week-by-week tasks and milestones
-   - Risk assessment for each change
-   - Communication plan for end users
-   - Rollback procedures for critical changes
-4. Specific CLI commands to implement each recommended change
-5. Monitoring and validation steps to ensure successful implementation
+2. A prioritized list of settings that should be updated for better security, governance, and user experience  
+3. A phased implementation roadmap for the next 3-6 months with:
+   - Priority levels (Critical/High/Medium/Low) for each change
+   - Risk assessment and business impact for each setting
+   - Recommended implementation sequence
+   - Communication considerations for stakeholders
+4. Specific CLI commands I can use to implement each recommended change
+5. Key monitoring points to track after implementation
 
-Please focus on enterprise governance, security compliance, and developer productivity optimization.
+Focus on enterprise governance, security compliance, and developer productivity optimization. Provide the plan as structured guidance rather than creating files or executing commands.
 ```
+
+When we ran this command, we got a plan output which we saved as a [markdown file (click to see the result)](./power-platform-plan/index.md){:target="_blank"}.
 
 This approach enables you to move beyond tactical settings management to strategic Power Platform governance, ensuring your organization maximizes the platform's potential while maintaining security and compliance standards.
 
