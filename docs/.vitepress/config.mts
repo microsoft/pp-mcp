@@ -88,7 +88,7 @@ export default defineConfig({
         items: [
           {
             text: "MCS ❤️ MCP",
-            link: "https://aka.ms/mcsmcplab",
+            link: "/labs/mcs-mcp",
           },
           {
             text: "Dataverse MCP Labs",
