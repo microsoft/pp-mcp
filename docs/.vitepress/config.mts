@@ -84,7 +84,7 @@ export default defineConfig({
       { text: "❤️ Contributions", link: "/contributions/" },
       {
         text: "🧪 Labs",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "MCS ❤️ MCP",
@@ -102,7 +102,7 @@ export default defineConfig({
       },
       {
         text: "✨ Samples",
-        collapsed: true,
+        collapsed: false,
         items: [
           {
             text: "🧮 Calculator (SSE - TS)",
