@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     # Checks markdown syntax and formatting
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Run markdownlint
-        uses: DavidAnson/markdownlint-cli2-action@v20
+        uses: DavidAnson/markdownlint-cli2-action@992badcdf24e3b8eb7e87ff9287fe931bcb00c6e # v20.0.0
         continue-on-error: false
         id: markdown-lint
         with:
@@ -33,11 +33,11 @@ jobs:
     runs-on: ubuntu-latest
     # check out the latest version of the code
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       # Checks the status of hyperlinks in .md files in verbose mode
       - name: Check links
-        uses: tcort/github-action-markdown-link-check@v1
+        uses: tcort/github-action-markdown-link-check@e047c5b37f24ab722bbef1a27b6fab7f96bc4068 # v1.1.3
         continue-on-error: true
         id: link-check
         with:
@@ -55,10 +55,10 @@ jobs:
     runs-on: ubuntu-latest
     # Checks spelling in markdown files
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: "18"
 
