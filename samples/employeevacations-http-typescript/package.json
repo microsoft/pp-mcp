@@ -22,6 +22,6 @@
     "@modelcontextprotocol/sdk": "^1.26.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "zod": "^3.24.4"
+    "zod": "^4.6.7"
   }
 }
