@@ -4,7 +4,7 @@ import os
 import multiprocessing
 import uvicorn
 import logging
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 from helpers import (
     load_json_data,
     save_json_data,
@@ -133,7 +133,7 @@ def add_product(name: str, category: str, price: float, description: str = "") -
 
 @tool_error_handler()
 @mcp.tool()
-def update_product(product_id: int, name: str = None, category: str = None, price: float = None, description: str = None) -> Dict[str, Any]:
+def update_product(product_id: int, name: Optional[str] = None, category: Optional[str] = None, price: Optional[float] = None, description: Optional[str] = None) -> Dict[str, Any]:
     """
     Update an existing product's details by ID.
 
@@ -317,7 +317,7 @@ def add_store(name: str, city: str, country: str, address: str) -> Dict[str, Any
 # Proper update_store function
 @tool_error_handler()
 @mcp.tool()
-def update_store(store_id: int, name: str = None, city: str = None, country: str = None, address: str = None) -> Dict[str, Any]:
+def update_store(store_id: int, name: Optional[str] = None, city: Optional[str] = None, country: Optional[str] = None, address: Optional[str] = None) -> Dict[str, Any]:
     """
     Update an existing store's details by ID.
 
